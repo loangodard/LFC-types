@@ -1,5 +1,4 @@
-export * from "./Images/Image"
-
+export * from "./Images/Image";
 export * from './Template/Shapes/Circle';
 export * from './Template/Shapes/CustomShape';
 export * from './Template/Shapes/ImageGroup';
@@ -8,7 +7,6 @@ export * from './Template/Shapes/Rectangle';
 export * from './Template/Shapes/Shape';
 export * from './Template/Shapes/ShapeGroup';
 export * from './Template/Shapes/Text';
-
 export * from "./Template/CustomizationCanva";
 export * from "./Template/Template";
 export * from "./Template/Face";
