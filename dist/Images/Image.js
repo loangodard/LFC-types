@@ -4,6 +4,7 @@ exports.Image = void 0;
 class Image {
     constructor(url) {
         this.url = url;
+        this.url = url;
     }
 }
 exports.Image = Image;

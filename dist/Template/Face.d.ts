@@ -1,13 +1,12 @@
 import { CustomizationCanva } from "./CustomizationCanva";
 import { Step } from "./Step";
 export type FaceSide = "external" | "internal" | "front" | "back";
-export type Feet = "left" | "right";
+export type Feet = "left" | "right" | "both";
 export declare class Face {
     side: FaceSide;
-    sameOnBothSocks: boolean;
+    feet: Feet;
     steps: Step[][];
     canva: CustomizationCanva;
-    feet?: Feet | undefined;
     key: string;
-    constructor(side: FaceSide, sameOnBothSocks: boolean | undefined, steps: Step[][], canva: CustomizationCanva, feet?: Feet | undefined);
+    constructor(side: FaceSide, feet: Feet, steps: Step[][], canva: CustomizationCanva);
 }

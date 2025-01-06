@@ -1,6 +1,5 @@
 export class Image {
-    url: string
-    constructor(url: string) {
+    constructor(public url: string) {
         this.url = url
     }
 }
