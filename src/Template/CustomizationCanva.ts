@@ -6,7 +6,7 @@ import { Image } from "../Images/Image"
 export class CustomizationCanva {
     // x,y,width,height are pourcentage of the backgroundImage
     constructor(
-        public backgroundImage: Image,
+        public backgroundImage: Image = new Image(""),
         public x: number = .5,
         public y: number = .5,
         public width: number = .5,

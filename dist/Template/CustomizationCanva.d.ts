@@ -8,5 +8,5 @@ export declare class CustomizationCanva {
     y: number;
     width: number;
     height: number;
-    constructor(backgroundImage: Image, x?: number, y?: number, width?: number, height?: number);
+    constructor(backgroundImage?: Image, x?: number, y?: number, width?: number, height?: number);
 }
