@@ -9,12 +9,19 @@ class Face {
         this.steps = steps;
         this.canva = canva;
         this.feet = feet;
+        this.key = `${side}-${feet}`;
         this.side = side;
         this.sameOnBothSocks = sameOnBothSocks;
         if (!sameOnBothSocks && !feet) {
             throw new Error("If the face is different for each foot, you must provide the feet");
         }
         this.feet = feet;
+        if (feet) {
+            this.key = `${side}-${feet}`;
+        }
+        else {
+            this.key = `${side}`;
+        }
         // verify that all steps has length > 0
         for (let i = 0; i < steps.length; i++) {
             if (steps[i].length === 0) {

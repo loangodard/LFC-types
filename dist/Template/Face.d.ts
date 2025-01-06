@@ -8,5 +8,6 @@ export declare class Face {
     steps: Step[][];
     canva: CustomizationCanva;
     feet?: Feet | undefined;
+    key: string;
     constructor(side: FaceSide, sameOnBothSocks: boolean | undefined, steps: Step[][], canva: CustomizationCanva, feet?: Feet | undefined);
 }
