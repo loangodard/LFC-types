@@ -5,57 +5,32 @@ import { TextShape } from "./Shapes/Text";
 export type StepType = "define_image" | "define_color" | "define_text" | "define_font";
 
 
-export class Step {
-    constructor(
-        public name: string,
-        public type: StepType,
-        public description?: string,
-    ) {
-        this.name = name;
-        this.description = description;
-    }
+export interface Step {
+    name: string
+    type: StepType
+    description?: string
 };
 
-export class DefineImage extends Step {
-    constructor(
-        public name: string,
-        public imageShape: ImageShape,
-        public description?: string,
-    ) {
-        super(name, "define_image", description);
-        this.imageShape = imageShape;
-    }
+export interface DefineImage extends Step {
+    name: string,
+    imageShape: ImageShape,
+    description?: string,
 };
 
-export class DefineText extends Step {
-    constructor(
-        public name: string,
-        public text: TextShape,
-        public description?: string,
-    ) {
-        super(name, "define_text", description);
-        this.text = text;
-    }
+export interface DefineText extends Step {
+    name: string,
+    text: TextShape,
+    description?: string,
 };
 
-export class DefineColor extends Step {
-    constructor(
-        public name: string,
-        public shapeToSetColor: Shape,
-        public description?: string,
-    ) {
-        super(name, "define_color", description);
-        this.shapeToSetColor = shapeToSetColor;
-    }
+export interface DefineColor extends Step {
+    name: string,
+    shapeToSetColor: Shape,
+    description?: string,
 };
 
-export class DefineFont extends Step {
-    constructor(
-        public name: string,
-        public text: TextShape,
-        public description?: string,
-    ) {
-        super(name, "define_font", description);
-        this.text = text;
-    }
+export interface DefineFont extends Step {
+    name: string,
+    text: TextShape,
+    description?: string,
 };
