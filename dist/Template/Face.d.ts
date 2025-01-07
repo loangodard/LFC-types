@@ -7,5 +7,5 @@ export interface Face {
     side: FaceSide;
     feet: Feet;
     steps: Step[][];
-    canva: CustomizationCanva;
+    canva?: CustomizationCanva;
 }
