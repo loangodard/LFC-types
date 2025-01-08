@@ -1,4 +1,4 @@
-import { Image } from "../../Images/Image";
+import { Image } from "../../Drive/Image";
 import { Shape } from "./Shape";
 export interface ImageShape extends Shape {
     image: Image;

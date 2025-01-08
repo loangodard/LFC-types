@@ -1,4 +1,5 @@
-export * from "./Images/Image"
+export * from "./Drive/Image"
+export * from "./Drive/Font"
 
 export * from './Template/Shapes/Circle';
 export * from './Template/Shapes/CustomShape';
