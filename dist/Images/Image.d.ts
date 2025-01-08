@@ -1,4 +1,4 @@
-export declare class Image {
+export interface Image {
+    id: number;
     url: string;
-    constructor(url: string);
 }
