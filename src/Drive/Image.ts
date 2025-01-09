@@ -1,6 +1,7 @@
 export interface Image {
     id: number,
-    url: string
+    url: string,
+    fileName: string
     category: {
         id: number,
         name: string
