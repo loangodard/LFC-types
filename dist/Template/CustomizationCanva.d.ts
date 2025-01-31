@@ -6,4 +6,5 @@ export interface CustomizationCanva {
     y: number;
     width: number;
     height: number;
+    JSONCanva?: string;
 }
