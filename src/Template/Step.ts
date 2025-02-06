@@ -2,35 +2,41 @@ import { ImageShape } from "./Shapes/ImageShape";
 import { Shape } from "./Shapes/Shape";
 import { TextShape } from "./Shapes/Text";
 
-export type StepType = "define_image" | "define_color" | "define_text" | "define_font";
+export type StepType = "define_image" | "change_shape" | "define_color" | "define_text" | "define_font";
 
+export interface TranslateText {
+    language: "fr" | "en" | "de" | "es",
+    text: string
+}
 
 export interface Step {
-    name: string
+    name: [TranslateText],
     type: StepType
-    description?: string
+    description?: [TranslateText]
+    objectId: string
+    stepNumber: number
 };
 
 export interface DefineImage extends Step {
-    name: string,
+    name: [TranslateText],
     imageShape: ImageShape,
-    description?: string,
+    description?: [TranslateText],
 };
 
 export interface DefineText extends Step {
-    name: string,
+    name: [TranslateText],
     text: TextShape,
-    description?: string,
+    description?: [TranslateText],
 };
 
 export interface DefineColor extends Step {
-    name: string,
+    name: [TranslateText],
     shapeToSetColor: Shape,
-    description?: string,
+    description?: [TranslateText],
 };
 
 export interface DefineFont extends Step {
-    name: string,
+    name: [TranslateText],
     text: TextShape,
-    description?: string,
+    description?: [TranslateText],
 };
