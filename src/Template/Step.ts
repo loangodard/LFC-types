@@ -10,33 +10,33 @@ export interface TranslateText {
 }
 
 export interface Step {
-    name: [TranslateText],
+    name: TranslateText[],
     type: StepType
-    description?: [TranslateText]
+    description?: TranslateText[],
     objectId: string
     stepNumber: number
 };
 
 export interface DefineImage extends Step {
-    name: [TranslateText],
+    name: TranslateText[],
     imageShape: ImageShape,
     description?: [TranslateText],
 };
 
 export interface DefineText extends Step {
-    name: [TranslateText],
+    name: TranslateText[],
     text: TextShape,
     description?: [TranslateText],
 };
 
 export interface DefineColor extends Step {
-    name: [TranslateText],
+    name: TranslateText[],
     shapeToSetColor: Shape,
-    description?: [TranslateText],
+    description?: TranslateText[],
 };
 
 export interface DefineFont extends Step {
-    name: [TranslateText],
+    name: TranslateText[],
     text: TextShape,
-    description?: [TranslateText],
+    description?: TranslateText[],
 };
