@@ -1,4 +1,5 @@
 import { Image } from "../Drive/Image";
+import { Step } from "./Step";
 export interface CustomizationCanva {
     id?: number;
     backgroundImage: Image;
@@ -7,4 +8,5 @@ export interface CustomizationCanva {
     width: number;
     height: number;
     JSONCanva?: string;
+    steps: Step[];
 }

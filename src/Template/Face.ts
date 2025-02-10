@@ -9,6 +9,5 @@ export interface Face {
     key: string
     side: FaceSide
     feet: Feet
-    steps: Step[][]
     canva?: CustomizationCanva
 }
