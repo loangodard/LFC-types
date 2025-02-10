@@ -14,10 +14,13 @@ export interface TranslateText {
 export interface Step {
     id?: number,
     name: TranslateText[],
-    type: StepType
+    type: StepType,
     description?: TranslateText[],
-    objectId: string
-    stepNumber: number
+    objectId: string,
+    stepNumber: number,
+    allowedCategories?: string[],
+    defaultColors?: string[],
+    allowedFonts?: string[],
 };
 
 export interface DefineImage extends Step {

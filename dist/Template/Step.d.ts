@@ -14,6 +14,9 @@ export interface Step {
     description?: TranslateText[];
     objectId: string;
     stepNumber: number;
+    allowedCategories?: string[];
+    defaultColors?: string[];
+    allowedFonts?: string[];
 }
 export interface DefineImage extends Step {
     name: TranslateText[];
