@@ -2,8 +2,9 @@ import { ImageShape } from "./Shapes/ImageShape";
 import { Shape } from "./Shapes/Shape";
 import { TextShape } from "./Shapes/Text";
 export type StepType = "define_image" | "change_shape" | "define_color" | "define_text" | "define_font";
+export declare const allowed_languages: string[];
 export interface TranslateText {
-    language: "fr" | "en" | "de" | "es";
+    language: typeof allowed_languages[number];
     text: string;
 }
 export interface Step {

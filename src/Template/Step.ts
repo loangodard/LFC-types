@@ -4,8 +4,10 @@ import { TextShape } from "./Shapes/Text";
 
 export type StepType = "define_image" | "change_shape" | "define_color" | "define_text" | "define_font";
 
+export const allowed_languages = ["fr", "en", "de", "es"];
+
 export interface TranslateText {
-    language: "fr" | "en" | "de" | "es",
+    language: typeof allowed_languages[number],
     text: string
 }
 
