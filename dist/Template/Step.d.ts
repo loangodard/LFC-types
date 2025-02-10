@@ -8,6 +8,7 @@ export interface TranslateText {
     text: string;
 }
 export interface Step {
+    id?: number;
     name: TranslateText[];
     type: StepType;
     description?: TranslateText[];

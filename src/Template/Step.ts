@@ -12,6 +12,7 @@ export interface TranslateText {
 }
 
 export interface Step {
+    id?: number,
     name: TranslateText[],
     type: StepType
     description?: TranslateText[],
