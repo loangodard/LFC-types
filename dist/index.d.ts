@@ -10,3 +10,4 @@ export * from "./Template/CustomizationCanva";
 export * from "./Template/Template";
 export * from "./Template/Face";
 export * from "./Template/Step";
+export * from "./Template/PaperFormat";
