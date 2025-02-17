@@ -7,4 +7,5 @@ export interface Face {
     side: FaceSide;
     feet: Feet;
     canva?: CustomizationCanva;
+    name?: string;
 }
