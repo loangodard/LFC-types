@@ -24,6 +24,7 @@ __exportStar(require("./Template/Shapes/Shape"), exports);
 __exportStar(require("./Template/Shapes/Text"), exports);
 __exportStar(require("./Template/CustomizationCanva"), exports);
 __exportStar(require("./Template/Template"), exports);
+__exportStar(require("./Template/Design"), exports);
 __exportStar(require("./Template/Face"), exports);
 __exportStar(require("./Template/Step"), exports);
 __exportStar(require("./Template/PaperFormat"), exports);

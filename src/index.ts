@@ -10,6 +10,7 @@ export * from './Template/Shapes/Text';
 
 export * from "./Template/CustomizationCanva";
 export * from "./Template/Template";
+export * from "./Template/Design";
 export * from "./Template/Face";
 export * from "./Template/Step";
 
