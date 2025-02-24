@@ -4,6 +4,6 @@ export interface Design {
     id?: number;
     createdAt?: Date;
     template?: Template;
-    JSONCanva?: string;
+    JSONCanvas?: string[];
     thumbnails?: Image[];
 }
