@@ -1,4 +1,4 @@
-export declare const fontList: (fontFolderPath: string) => {
+export declare const fontList: {
     name: string;
     url: string;
 }[];
