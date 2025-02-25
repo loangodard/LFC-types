@@ -11,4 +11,5 @@ export * from "./Template/Template";
 export * from "./Template/Design";
 export * from "./Template/Face";
 export * from "./Template/Step";
+export * from "./Constants/fontList";
 export * from "./Template/PaperFormat";

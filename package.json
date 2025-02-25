@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc && cpx 'fonts/**/*' dist/fonts",
+    "build": "tsc && cpx 'src/fonts/**/*' dist/fonts",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
   "keywords": [],

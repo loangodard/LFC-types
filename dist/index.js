@@ -27,4 +27,5 @@ __exportStar(require("./Template/Template"), exports);
 __exportStar(require("./Template/Design"), exports);
 __exportStar(require("./Template/Face"), exports);
 __exportStar(require("./Template/Step"), exports);
+__exportStar(require("./Constants/fontList"), exports);
 __exportStar(require("./Template/PaperFormat"), exports);
