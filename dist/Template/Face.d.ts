@@ -8,4 +8,5 @@ export interface Face {
     feet: Feet;
     canva?: CustomizationCanva;
     name?: string;
+    faceOrderOnTemplate?: number;
 }
