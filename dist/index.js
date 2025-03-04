@@ -29,4 +29,5 @@ __exportStar(require("./Template/Face"), exports);
 __exportStar(require("./Template/Step"), exports);
 __exportStar(require("./Constants/fontList"), exports);
 __exportStar(require("./Shopify/OrderStatus"), exports);
+__exportStar(require("./Shopify/ShopifyOrder"), exports);
 __exportStar(require("./Template/PaperFormat"), exports);

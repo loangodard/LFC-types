@@ -16,5 +16,6 @@ export * from "./Template/Step";
 
 export * from "./Constants/fontList";
 export * from "./Shopify/OrderStatus"
+export * from "./Shopify/ShopifyOrder"
 
 export * from "./Template/PaperFormat";
