@@ -2,7 +2,7 @@ import { Image } from "../Drive/Image";
 import { Template } from "./Template";
 
 export interface Design {
-    id?: number;
+    id?: string;
     createdAt?: Date;
     template?: Template;
     JSONCanvas?: string[];
