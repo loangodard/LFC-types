@@ -9,7 +9,7 @@ export interface CustomAttribute {
 export interface LineItem {
     id: string;
     title: string;
-    sku: string;
+    sku?: string;
     currentQuantity: number;
     customAttributes: CustomAttribute[];
 }
