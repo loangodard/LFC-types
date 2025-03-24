@@ -15,3 +15,4 @@ export * from "./Constants/fontList";
 export * from "./Shopify/OrderStatus";
 export * from "./Shopify/ShopifyOrder";
 export * from "./Template/PaperFormat";
+export * from "./Shipment/ShippingPackaging";

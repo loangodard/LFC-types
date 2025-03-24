@@ -31,3 +31,4 @@ __exportStar(require("./Constants/fontList"), exports);
 __exportStar(require("./Shopify/OrderStatus"), exports);
 __exportStar(require("./Shopify/ShopifyOrder"), exports);
 __exportStar(require("./Template/PaperFormat"), exports);
+__exportStar(require("./Shipment/ShippingPackaging"), exports);
