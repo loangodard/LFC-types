@@ -16,6 +16,22 @@ export interface LineItem {
     customAttributes: CustomAttribute[];
 }
 
+export interface ShippingObjectType {
+    firstName?: string
+    lastName?: string;
+    address1?: string;
+    address2?: string;
+    company?: string;
+    city?: string;
+    province?: string;
+    country?: string;
+    countryCode?: string
+    zip?: string;
+    phone?: string;
+    email?: string;
+    code?: string;
+}
+
 export interface ShopifyOrder {
     id: string;
     name: string;
@@ -24,6 +40,7 @@ export interface ShopifyOrder {
     displayFinancialStatus: string;
     lineItems: LineItem[];
     tags: string[];
-    note: string;
+    note?: string;
     events: event[];
+    shipping?: ShippingObjectType;
 }
