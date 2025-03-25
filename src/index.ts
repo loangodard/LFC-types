@@ -22,3 +22,5 @@ export * from "./Template/PaperFormat";
 
 export * from "./Shipment/ShippingPackaging"
 export * from "./Shipment/SKU"
+export * from "./Shipment/Carrier"
+export * from "./Shipment/Shipment"
