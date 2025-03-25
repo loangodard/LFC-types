@@ -33,3 +33,5 @@ __exportStar(require("./Shopify/ShopifyOrder"), exports);
 __exportStar(require("./Template/PaperFormat"), exports);
 __exportStar(require("./Shipment/ShippingPackaging"), exports);
 __exportStar(require("./Shipment/SKU"), exports);
+__exportStar(require("./Shipment/Carrier"), exports);
+__exportStar(require("./Shipment/Shipment"), exports);
