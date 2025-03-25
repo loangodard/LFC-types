@@ -16,7 +16,7 @@ export interface LineItem {
     customAttributes: CustomAttribute[];
 }
 
-export interface ShippingObjectType {
+export interface Shipping {
     firstName?: string
     lastName?: string;
     address1?: string;
@@ -42,5 +42,5 @@ export interface ShopifyOrder {
     tags: string[];
     note?: string;
     events: event[];
-    shipping?: ShippingObjectType;
+    shipping?: Shipping;
 }
