@@ -6,5 +6,5 @@ export interface ItemToShip {
 export interface Carrier {
     name: string;
     offers: string[];
-    generateLabel: (shipment: Shipment) => string;
+    generateLabel: (shipment: Shipment) => Promise<string>;
 }
