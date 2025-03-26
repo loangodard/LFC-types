@@ -2,6 +2,7 @@ import { Shipping } from "../Shopify/ShopifyOrder";
 import { Carrier, ItemToShip } from "./Carrier";
 import { ShippingPackaging } from "./ShippingPackaging";
 
+
 export interface Shipment {
     id?: number;
     createdAt: Date;

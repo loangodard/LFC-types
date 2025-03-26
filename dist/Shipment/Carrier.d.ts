@@ -1,3 +1,4 @@
+import { Shipment } from "./Shipment";
 export interface ItemToShip {
     sku: string;
     quantity: number;
@@ -5,5 +6,5 @@ export interface ItemToShip {
 export interface Carrier {
     name: string;
     offers: string[];
-    generateLabel: (orderId: string, itemsToShip: ItemToShip[], offer: string) => string;
+    generateLabel: (shipment: Shipment) => string;
 }
