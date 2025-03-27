@@ -9,6 +9,7 @@ export interface Shipment {
     orderId?: string;
     trackingNumber?: string;
     items: ItemToShip[];
+    itemsWeight: number;
     shippingPackaging: ShippingPackaging;
     carrier: Carrier;
     offer: string;
