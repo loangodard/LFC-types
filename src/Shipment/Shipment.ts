@@ -8,6 +8,8 @@ export interface Shipment {
     createdAt: Date;
     orderId?: string;
     trackingNumber?: string;
+    trackingUrl?: string;
+    base64Label?: string;
     items: ItemToShip[];
     itemsWeight: number;
     shippingPackaging: ShippingPackaging;
