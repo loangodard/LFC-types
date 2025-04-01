@@ -10,4 +10,5 @@ export interface CustomizationCanva {
     height: number
     JSONCanva?: string
     steps: Step[]
+    thumbnail? : Image
 }
