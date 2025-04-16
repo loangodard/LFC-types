@@ -7,4 +7,5 @@ export interface TournamentOrder {
     size: string;
     quantity: number;
     createdAt: Date;
+    printed: boolean;
 }
