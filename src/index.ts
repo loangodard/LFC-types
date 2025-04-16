@@ -24,3 +24,6 @@ export * from "./Shipment/ShippingPackaging"
 export * from "./Shipment/SKU"
 export * from "./Shipment/Carrier"
 export * from "./Shipment/Shipment"
+
+export * from "./Tournament/Tournament"
+export * from "./Tournament/TournamentOrder"
