@@ -12,7 +12,7 @@ export interface Shipment {
     base64Label?: string;
     items: ItemToShip[];
     itemsWeight: number;
-    shippingPackaging: ShippingPackaging;
+    shippingPackaging?: ShippingPackaging;
     carrier: Carrier;
     offer: string;
     shippingData: Shipping
