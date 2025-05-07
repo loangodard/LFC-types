@@ -9,7 +9,4 @@ export interface TournamentOrder {
     quantity: number;
     createdAt: Date;
     printed: boolean;
-    template:{
-        id:number
-    }
 }
