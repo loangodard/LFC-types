@@ -21,3 +21,5 @@ export * from "./Shipment/Carrier";
 export * from "./Shipment/Shipment";
 export * from "./Tournament/Tournament";
 export * from "./Tournament/TournamentOrder";
+export * from "./Team/TeamOrder";
+export * from "./Team/TeamOrderLineItem";

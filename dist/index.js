@@ -37,3 +37,5 @@ __exportStar(require("./Shipment/Carrier"), exports);
 __exportStar(require("./Shipment/Shipment"), exports);
 __exportStar(require("./Tournament/Tournament"), exports);
 __exportStar(require("./Tournament/TournamentOrder"), exports);
+__exportStar(require("./Team/TeamOrder"), exports);
+__exportStar(require("./Team/TeamOrderLineItem"), exports);
