@@ -8,4 +8,5 @@ export interface TeamOrder {
     availableTemplates: Template[];
     status: "OPEN" | "TO_PRODUCE" | "PRODUCED" | "SHIPPED" | "BILLED";
     lineItems: TeamOrderLineItem[];
+    pipeDriveDealId?: string;
 }
