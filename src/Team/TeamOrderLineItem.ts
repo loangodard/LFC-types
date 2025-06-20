@@ -9,4 +9,5 @@ export interface TeamOrderLineItem {
     quantity: number;
     createdAt: Date;
     printed: boolean;
+    socksType:string
 };
