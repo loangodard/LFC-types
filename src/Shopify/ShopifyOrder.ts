@@ -14,6 +14,7 @@ export interface LineItem {
     sku?: string;
     currentQuantity: number;
     customAttributes: CustomAttribute[];
+    templateId?: string;
 }
 
 export interface Shipping {
