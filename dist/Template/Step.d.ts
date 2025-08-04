@@ -1,7 +1,7 @@
 import { ImageShape } from "./Shapes/ImageShape";
 import { Shape } from "./Shapes/Shape";
 import { TextShape } from "./Shapes/Text";
-export type StepType = "define_image" | "change_shape" | "define_color" | "define_text" | "define_font";
+export type StepType = "define_image" | "change_shape" | "define_color" | "define_text" | "define_font" | "define_multiple_images";
 export declare const allowed_languages: string[];
 export interface TranslateText {
     language: typeof allowed_languages[number];
