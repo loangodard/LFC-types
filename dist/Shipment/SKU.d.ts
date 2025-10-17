@@ -4,4 +4,7 @@ export interface SKU {
     sku: string;
     weight: number;
     dimensions: Dimensions;
+    availableQuantity: number;
+    reservedQuantity: number;
+    destroyedQuantity: number;
 }
