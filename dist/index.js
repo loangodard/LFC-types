@@ -42,3 +42,4 @@ __exportStar(require("./Team/TeamOrderLineItem"), exports);
 __exportStar(require("./Business/BusinessOrder"), exports);
 __exportStar(require("./Business/BusinessOrderLineItem"), exports);
 __exportStar(require("./Business/Business"), exports);
+__exportStar(require("./Business/Recipient"), exports);

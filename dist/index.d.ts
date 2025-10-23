@@ -26,3 +26,4 @@ export * from "./Team/TeamOrderLineItem";
 export * from "./Business/BusinessOrder";
 export * from "./Business/BusinessOrderLineItem";
 export * from "./Business/Business";
+export * from "./Business/Recipient";
