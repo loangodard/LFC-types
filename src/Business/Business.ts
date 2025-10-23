@@ -1,3 +1,5 @@
+import { BusinessOrder } from "./BusinessOrder";
+
 export interface Business {
     id: number;
     name: string;
@@ -5,10 +7,11 @@ export interface Business {
 
     lfcKey: string;
     whiteLabel: boolean;
-    testMode: boolean;
 
     businessEndpointUrl?: string;
 
     sendNotificationsToBusiness: boolean;
     sendNotificationsToRecipients: boolean;
+
+    orders: BusinessOrder[];
 }
