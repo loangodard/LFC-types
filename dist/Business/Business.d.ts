@@ -1,4 +1,3 @@
-import { BusinessOrder } from "./BusinessOrder";
 export interface Business {
     id: number;
     name: string;
@@ -8,5 +7,4 @@ export interface Business {
     businessEndpointUrl?: string;
     sendNotificationsToBusiness: boolean;
     sendNotificationsToRecipients: boolean;
-    orders: BusinessOrder[];
 }

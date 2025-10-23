@@ -2,7 +2,6 @@ import { BusinessOrder } from "./BusinessOrder";
 
 export interface Recipient {
     id: number;
-    businessOrder: BusinessOrder;
     firstName: string;
     lastName: string;
     email: string;

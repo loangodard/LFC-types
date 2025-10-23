@@ -12,6 +12,4 @@ export interface Business {
 
     sendNotificationsToBusiness: boolean;
     sendNotificationsToRecipients: boolean;
-
-    orders: BusinessOrder[];
 }
