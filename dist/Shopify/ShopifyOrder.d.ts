@@ -40,4 +40,5 @@ export interface ShopifyOrder {
     note?: string;
     events: event[];
     shipping?: Shipping;
+    origin: string;
 }
