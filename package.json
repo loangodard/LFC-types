@@ -22,5 +22,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/loangodard/LFC-types.git"
+  },
+  "dependencies": {
+    "lfc-types": "github:loangodard/LFC-types"
   }
 }
