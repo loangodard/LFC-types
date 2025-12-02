@@ -5,4 +5,5 @@ import { Recipient } from "./Recipient";
 export interface BusinessOrder {
     id: number;
     businessOrderReference?: string;
+    note?: string;
 }
