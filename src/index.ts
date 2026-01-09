@@ -35,3 +35,6 @@ export * from "./Business/BusinessOrder"
 export * from "./Business/BusinessOrderLineItem"
 export * from "./Business/Business"
 export * from "./Business/Recipient"
+
+export * from "./SAV/SAVOrder"
+export * from "./SAV/SAVOrderLineItem"
